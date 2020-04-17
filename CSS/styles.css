@@ -1,0 +1,71 @@
+/* Add a black background color to the top navigation */
+.topnav {
+	position:absolute;
+	background-color:black;
+	
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f0ffff;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 12px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f0ffff;
+  color: black;
+}
+
+.homepage {
+	display:block;
+	min-width:800px;
+	max-width:800px;
+	margin:auto;
+}
+
+.clues {
+	display:block;
+	min-width:800px;
+	max-width:800px;
+	margin:auto;
+}
+
+p {
+	font-family:papyrus;
+	color:#f0ffff;
+	text-align: center;
+}
+
+img.homepage {
+	display: block;
+	min-width:1024px;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+/* 	width: 60%; */
+	padding-top: 22px;
+	padding-bottom:10px;
+}
+
+img.puzzle {
+	display: block;
+	min-width:1280px;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 22px;
+	padding-bottom:10px;
+}
+
+li {
+	font-family:papyrus;
+	color:#f0ffff;
+}
+
+p + ul {
+    margin-top: -15px;
+}
